@@ -1,0 +1,24 @@
+.card {
+  max-width: 700px;
+  height: auto;
+}
+
+.cartItem {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  align-items: center;
+}
+
+.btnW {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: none;
+  background-color: rgb(255, 190, 190);
+  transition-property: all;
+  transition-duration: 0.4s;
+  transition-timing-function: ease;
+}
+.btnW:hover {
+  background-color: rgb(252, 162, 162);
+}

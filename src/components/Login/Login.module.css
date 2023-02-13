@@ -1,0 +1,29 @@
+.bgCustom {
+  background-color: #ffe0b3;
+}
+.btnCustom {
+  background-color: #ffe0b3 !important;
+  border: 0 !important;
+}
+.btnCustom:hover {
+  background-color: #f8cc8b !important;
+}
+
+.btnCustomTwo {
+  background-color: transparent !important;
+  border: 1px solid #ddd !important;
+  color: #555 !important;
+}
+.btnCustomTwo:hover {
+  color: #555;
+  border: 1px solid #999 !important;
+}
+
+.cardd {
+  max-width: 550px;
+}
+
+.divider {
+  display: grid;
+  grid-template-columns: 1fr 50px 1fr;
+}
